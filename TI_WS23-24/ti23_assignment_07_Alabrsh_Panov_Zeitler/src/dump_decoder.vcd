@@ -1,0 +1,26 @@
+$date
+	Sun Dec  3 18:43:56 2023
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module decoder_tb $end
+$var wire 7 ! x_o [6:0] $end
+$var reg 4 " x_i [3:0] $end
+$scope module dut $end
+$var wire 4 # i_binary_number [3:0] $end
+$var reg 7 $ o_display [6:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+b1111000 $
+b111 #
+b111 "
+b1111000 !
+$end
+#1

@@ -1,0 +1,40 @@
+$date
+	Sun Nov 26 17:20:15 2023
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module generic_tb $end
+$var wire 1 ! l_s $end
+$var wire 1 " l_c $end
+$var reg 1 # l_a $end
+$var reg 1 $ l_b $end
+$scope module dut $end
+$var wire 1 # a $end
+$var wire 1 $ b $end
+$var wire 1 " c $end
+$var wire 1 ! s $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+0$
+0#
+0"
+0!
+$end
+#1
+1!
+1$
+#2
+0$
+1#
+#3
+1"
+0!
+1$
+#4

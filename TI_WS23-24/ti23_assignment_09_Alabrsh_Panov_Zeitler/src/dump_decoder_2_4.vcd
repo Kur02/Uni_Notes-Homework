@@ -1,0 +1,44 @@
+$date
+	Sat Dec 16 18:43:30 2023
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module decoder_2_4_tb $end
+$var wire 4 ! l_out [3:0] $end
+$var reg 2 " l_in [1:0] $end
+$scope module m_dut $end
+$var wire 2 # i_binary [1:0] $end
+$var reg 4 $ o_choose [3:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+$end
+#0
+$dumpvars
+b1 $
+b0 #
+b0 "
+b1 !
+$end
+#5
+b10 !
+b10 $
+b1 "
+b1 #
+#10
+b100 !
+b100 $
+b10 "
+b10 #
+#15
+b1000 !
+b1000 $
+b11 "
+b11 #
+#20

@@ -1,0 +1,309 @@
+$date
+	Thu Dec  7 17:21:44 2023
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module alu_de10_lite_tb $end
+$var wire 10 ! LEDR [9:0] $end
+$var wire 7 " HEX2 [6:0] $end
+$var wire 7 # HEX1 [6:0] $end
+$var wire 7 $ HEX0 [6:0] $end
+$var reg 10 % SW [9:0] $end
+$scope module dut $end
+$var wire 10 & SW [9:0] $end
+$var wire 4 ' l_result [3:0] $end
+$var wire 1 ( l_carry_out $end
+$var wire 4 ) l_b [3:0] $end
+$var wire 2 * l_alu_ctrl [1:0] $end
+$var wire 4 + l_a [3:0] $end
+$var wire 10 , LEDR [9:0] $end
+$var wire 7 - HEX2 [6:0] $end
+$var wire 7 . HEX1 [6:0] $end
+$var wire 7 / HEX0 [6:0] $end
+$scope module alu $end
+$var wire 4 0 i_a [3:0] $end
+$var wire 2 1 i_alu_ctrl [1:0] $end
+$var wire 4 2 i_b [3:0] $end
+$var wire 4 3 l_and [3:0] $end
+$var wire 4 4 l_not_b [3:0] $end
+$var wire 4 5 l_or [3:0] $end
+$var wire 4 6 o_result [3:0] $end
+$var wire 1 ( o_carry_out $end
+$var wire 4 7 l_mux_out [3:0] $end
+$var wire 4 8 l_adder_out [3:0] $end
+$scope module adder $end
+$var wire 4 9 i_a [3:0] $end
+$var wire 1 : i_carry_in $end
+$var wire 4 ; o_s [3:0] $end
+$var wire 1 ( o_carry_out $end
+$var wire 4 < i_b [3:0] $end
+$upscope $end
+$scope module mux2 $end
+$var wire 4 = i_in0 [3:0] $end
+$var wire 4 > i_in1 [3:0] $end
+$var wire 1 ? i_s $end
+$var wire 4 @ o_out [3:0] $end
+$upscope $end
+$scope module mux4 $end
+$var wire 4 A i_in0 [3:0] $end
+$var wire 4 B i_in1 [3:0] $end
+$var wire 4 C i_in2 [3:0] $end
+$var wire 4 D i_in3 [3:0] $end
+$var wire 2 E i_s [1:0] $end
+$var wire 4 F o_out [3:0] $end
+$var wire 4 G l_out1 [3:0] $end
+$var wire 4 H l_out0 [3:0] $end
+$scope module m0 $end
+$var wire 4 I i_in0 [3:0] $end
+$var wire 4 J i_in1 [3:0] $end
+$var wire 1 K i_s $end
+$var wire 4 L o_out [3:0] $end
+$upscope $end
+$scope module m1 $end
+$var wire 4 M i_in0 [3:0] $end
+$var wire 4 N i_in1 [3:0] $end
+$var wire 1 O i_s $end
+$var wire 4 P o_out [3:0] $end
+$upscope $end
+$scope module m2 $end
+$var wire 4 Q i_in0 [3:0] $end
+$var wire 4 R i_in1 [3:0] $end
+$var wire 1 S i_s $end
+$var wire 4 T o_out [3:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope module decoder0 $end
+$var wire 4 U i_binary_number [3:0] $end
+$var reg 7 V o_display [6:0] $end
+$upscope $end
+$scope module decoder1 $end
+$var wire 4 W i_binary_number [3:0] $end
+$var reg 7 X o_display [6:0] $end
+$upscope $end
+$scope module decoderResult $end
+$var wire 4 Y i_binary_number [3:0] $end
+$var reg 7 Z o_display [6:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+b10010 Z
+b101 Y
+b100100 X
+b10 W
+b110000 V
+b11 U
+b101 T
+0S
+b10 R
+b101 Q
+b10 P
+0O
+b11 N
+b10 M
+b101 L
+0K
+b101 J
+b101 I
+b101 H
+b10 G
+b101 F
+b0 E
+b11 D
+b10 C
+b101 B
+b101 A
+b10 @
+0?
+b1101 >
+b10 =
+b10 <
+b101 ;
+0:
+b11 9
+b101 8
+b10 7
+b101 6
+b11 5
+b1101 4
+b10 3
+b10 2
+b0 1
+b11 0
+b110000 /
+b100100 .
+b10010 -
+bz0zzzzz00 ,
+b11 +
+b0 *
+b10 )
+0(
+b101 '
+b100011 &
+b100011 %
+b110000 $
+b100100 #
+b10010 "
+bz0zzzzz00 !
+$end
+#10
+b1111001 "
+b1111001 -
+b1111001 Z
+b1 '
+b1 6
+b1 F
+b1 T
+b1 Y
+1(
+b1011 G
+b1011 P
+b1011 R
+b1 H
+b1 L
+b1 Q
+1?
+1:
+1K
+1O
+b101 4
+b101 >
+b101 7
+b101 <
+b101 @
+b1000 #
+b1000 .
+b1000 X
+b1010 3
+b1010 C
+b1010 M
+b1011 5
+b1011 D
+b1011 N
+b1 8
+b1 ;
+b1 A
+b1 B
+b1 I
+b1 J
+b11 $
+b11 /
+b11 V
+bz1zzzzz01 !
+bz1zzzzz01 ,
+b1 *
+b1 1
+b1 E
+b1010 )
+b1010 2
+b1010 =
+b1010 W
+b1011 +
+b1011 0
+b1011 9
+b1011 U
+b110101011 %
+b110101011 &
+#20
+b0 "
+b0 -
+b0 Z
+b1000 '
+b1000 6
+b1000 F
+b1000 T
+b1000 Y
+b1110 7
+b1110 <
+b1110 @
+b1000 G
+b1000 P
+b1000 R
+b111 H
+b111 L
+b111 Q
+0?
+0:
+0K
+0O
+1S
+b1 4
+b1 >
+b110 #
+b110 .
+b110 X
+b1000 3
+b1000 C
+b1000 M
+b1111 5
+b1111 D
+b1111 N
+b111 8
+b111 ;
+b111 A
+b111 B
+b111 I
+b111 J
+1(
+b10000 $
+b10000 /
+b10000 V
+bz1zzzzz10 !
+bz1zzzzz10 ,
+b10 *
+b10 1
+b10 E
+b1110 )
+b1110 2
+b1110 =
+b1110 W
+b1001 +
+b1001 0
+b1001 9
+b1001 U
+b1011101001 %
+b1011101001 &
+#30
+b1110 "
+b1110 -
+b1110 Z
+0(
+b1011 H
+b1011 L
+b1011 Q
+b1111 '
+b1111 6
+b1111 F
+b1111 T
+b1111 Y
+b1 7
+b1 <
+b1 @
+b1011 8
+b1011 ;
+b1011 A
+b1011 B
+b1011 I
+b1011 J
+b1111 G
+b1111 P
+b1111 R
+1?
+1:
+1K
+1O
+bz0zzzzz11 !
+bz0zzzzz11 ,
+b11 *
+b11 1
+b11 E
+b1111101001 %
+b1111101001 &
+#40

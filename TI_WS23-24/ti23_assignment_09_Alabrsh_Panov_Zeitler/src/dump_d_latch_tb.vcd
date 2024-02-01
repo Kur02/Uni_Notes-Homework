@@ -1,0 +1,82 @@
+$date
+	Sat Dec 16 04:07:48 2023
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module d_latch_tb $end
+$var wire 1 ! l_qinv $end
+$var wire 1 " l_q $end
+$var reg 1 # l_clk $end
+$var reg 1 $ l_d $end
+$scope module m_dut $end
+$var wire 1 # i_clk $end
+$var wire 1 $ i_d $end
+$var wire 1 % l_d_not $end
+$var wire 1 & l_r $end
+$var wire 1 ' l_s $end
+$var wire 1 ! o_qinv $end
+$var wire 1 " o_q $end
+$scope module sr_latch $end
+$var wire 1 & i_r $end
+$var wire 1 ' i_s $end
+$var wire 1 " o_q $end
+$var wire 1 ! o_qinv $end
+$upscope $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+$end
+#0
+$dumpvars
+0'
+1&
+1%
+0$
+1#
+0"
+1!
+$end
+#5
+0&
+0#
+#6
+0%
+1$
+#10
+1"
+0!
+1'
+1#
+#15
+0'
+0#
+#17
+1%
+0$
+#20
+1!
+0"
+1&
+1#
+#24
+1"
+0!
+0&
+0%
+1'
+1$
+#25
+0'
+0#
+#30
+1'
+1#
+#35
+0'
+0#

@@ -1,0 +1,175 @@
+$date
+	Sat Dec 16 04:34:49 2023
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module d_flip_flop_en_tb $end
+$var wire 1 ! l_q $end
+$var reg 1 " l_clk $end
+$var reg 1 # l_d $end
+$var reg 1 $ l_en $end
+$scope module m_dut $end
+$var wire 1 " i_clk $end
+$var wire 1 # i_d $end
+$var wire 1 $ i_en $end
+$var wire 1 ! o_q $end
+$var wire 1 % l_d_out $end
+$scope module d_flip_flop $end
+$var wire 1 " i_clk $end
+$var wire 1 % i_d $end
+$var wire 1 & l_clk_not $end
+$var wire 1 ' o_qinv $end
+$var wire 1 ! o_q $end
+$var wire 1 ( l_qinv_out $end
+$var wire 1 ) l_q_out $end
+$scope module d_latch_1 $end
+$var wire 1 & i_clk $end
+$var wire 1 % i_d $end
+$var wire 1 * l_d_not $end
+$var wire 1 + l_r $end
+$var wire 1 , l_s $end
+$var wire 1 ( o_qinv $end
+$var wire 1 ) o_q $end
+$scope module sr_latch $end
+$var wire 1 + i_r $end
+$var wire 1 , i_s $end
+$var wire 1 ) o_q $end
+$var wire 1 ( o_qinv $end
+$upscope $end
+$upscope $end
+$scope module d_latch_2 $end
+$var wire 1 " i_clk $end
+$var wire 1 ) i_d $end
+$var wire 1 - l_d_not $end
+$var wire 1 . l_r $end
+$var wire 1 / l_s $end
+$var wire 1 ' o_qinv $end
+$var wire 1 ! o_q $end
+$scope module sr_latch $end
+$var wire 1 . i_r $end
+$var wire 1 / i_s $end
+$var wire 1 ! o_q $end
+$var wire 1 ' o_qinv $end
+$upscope $end
+$upscope $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope module mux_2 $end
+$var wire 64 0 i_in0 [63:0] $end
+$var wire 64 1 i_in1 [63:0] $end
+$var wire 1 2 i_s $end
+$var wire 64 3 o_out [63:0] $end
+$var parameter 32 4 N $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+b1000000 4
+$end
+#0
+$dumpvars
+bz 3
+z2
+bz 1
+bz 0
+x/
+x.
+x-
+0,
+0+
+x*
+x)
+x(
+x'
+0&
+x%
+x$
+x#
+1"
+x!
+$end
+#5
+x+
+x,
+1&
+0.
+0/
+0"
+#7
+0-
+1)
+0(
+0+
+0*
+1,
+1%
+1#
+1$
+#10
+1!
+0'
+0,
+0&
+1/
+1"
+#15
+1,
+1&
+0/
+0"
+#16
+1(
+1-
+0)
+1+
+1*
+0,
+0%
+0#
+#20
+1'
+0!
+0+
+0&
+1.
+1"
+#24
+1#
+0$
+#25
+1+
+1&
+0.
+0"
+#30
+0+
+0&
+1.
+1"
+#35
+1+
+1&
+0.
+0"
+#38
+0-
+1)
+0(
+0+
+0*
+1,
+1%
+1$
+#40
+1!
+0'
+0,
+0&
+1/
+1"
+#43

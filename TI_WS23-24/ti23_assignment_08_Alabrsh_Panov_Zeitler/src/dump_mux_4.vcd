@@ -1,0 +1,119 @@
+$date
+	Wed Dec  6 16:30:59 2023
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module mux_4_tb $end
+$var wire 4 ! l_out [3:0] $end
+$var reg 2 " l_ctrl [1:0] $end
+$var reg 4 # l_in0 [3:0] $end
+$var reg 4 $ l_in1 [3:0] $end
+$var reg 4 % l_in2 [3:0] $end
+$var reg 4 & l_in3 [3:0] $end
+$scope module dut $end
+$var wire 4 ' i_in0 [3:0] $end
+$var wire 4 ( i_in1 [3:0] $end
+$var wire 4 ) i_in2 [3:0] $end
+$var wire 4 * i_in3 [3:0] $end
+$var wire 2 + i_s [1:0] $end
+$var wire 4 , o_out [3:0] $end
+$var wire 4 - l_out1 [3:0] $end
+$var wire 4 . l_out0 [3:0] $end
+$scope module m0 $end
+$var wire 4 / i_in0 [3:0] $end
+$var wire 4 0 i_in1 [3:0] $end
+$var wire 1 1 i_s $end
+$var wire 4 2 o_out [3:0] $end
+$upscope $end
+$scope module m1 $end
+$var wire 4 3 i_in0 [3:0] $end
+$var wire 4 4 i_in1 [3:0] $end
+$var wire 1 5 i_s $end
+$var wire 4 6 o_out [3:0] $end
+$upscope $end
+$scope module m2 $end
+$var wire 4 7 i_in0 [3:0] $end
+$var wire 4 8 i_in1 [3:0] $end
+$var wire 1 9 i_s $end
+$var wire 4 : o_out [3:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+b1111 :
+09
+b11 8
+b1111 7
+b11 6
+05
+b101 4
+b11 3
+b1111 2
+01
+b0 0
+b1111 /
+b1111 .
+b11 -
+b1111 ,
+b0 +
+b101 *
+b11 )
+b0 (
+b1111 '
+b101 &
+b11 %
+b0 $
+b1111 #
+b0 "
+b1111 !
+$end
+#10
+b0 !
+b0 ,
+b0 :
+b0 .
+b0 2
+b0 7
+b101 -
+b101 6
+b101 8
+11
+15
+b1 "
+b1 +
+#20
+b1111 .
+b1111 2
+b1111 7
+b11 -
+b11 6
+b11 8
+b11 !
+b11 ,
+b11 :
+01
+05
+19
+b10 "
+b10 +
+#30
+b101 !
+b101 ,
+b101 :
+b0 .
+b0 2
+b0 7
+b101 -
+b101 6
+b101 8
+11
+15
+b11 "
+b11 +
+#40

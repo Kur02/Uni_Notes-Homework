@@ -1,0 +1,130 @@
+$date
+	Sat Dec 16 22:34:23 2023
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module mux_4_tb $end
+$var wire 4 ! l_out [3:0] $end
+$var reg 2 " l_ctrl [1:0] $end
+$var reg 4 # l_in0 [3:0] $end
+$var reg 4 $ l_in1 [3:0] $end
+$var reg 4 % l_in2 [3:0] $end
+$var reg 4 & l_in3 [3:0] $end
+$scope module m_dut $end
+$var wire 4 ' i_in0 [3:0] $end
+$var wire 4 ( i_in1 [3:0] $end
+$var wire 4 ) i_in2 [3:0] $end
+$var wire 4 * i_in3 [3:0] $end
+$var wire 2 + i_s [1:0] $end
+$var wire 4 , o_out [3:0] $end
+$var wire 4 - l_out1 [3:0] $end
+$var wire 4 . l_out0 [3:0] $end
+$var parameter 32 / N $end
+$scope module m0 $end
+$var wire 4 0 i_in0 [3:0] $end
+$var wire 4 1 i_in1 [3:0] $end
+$var wire 1 2 i_s $end
+$var wire 4 3 o_out [3:0] $end
+$var parameter 32 4 N $end
+$upscope $end
+$scope module m1 $end
+$var wire 4 5 i_in0 [3:0] $end
+$var wire 4 6 i_in1 [3:0] $end
+$var wire 1 7 i_s $end
+$var wire 4 8 o_out [3:0] $end
+$var parameter 32 9 N $end
+$upscope $end
+$scope module m2 $end
+$var wire 4 : i_in0 [3:0] $end
+$var wire 4 ; i_in1 [3:0] $end
+$var wire 1 < i_s $end
+$var wire 4 = o_out [3:0] $end
+$var parameter 32 > N $end
+$upscope $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+b100 >
+b100 9
+b100 4
+b100 /
+$end
+#0
+$dumpvars
+b1111 =
+0<
+b11 ;
+b1111 :
+b11 8
+07
+b101 6
+b11 5
+b1111 3
+02
+b0 1
+b1111 0
+b1111 .
+b11 -
+b1111 ,
+b0 +
+b101 *
+b11 )
+b0 (
+b1111 '
+b101 &
+b11 %
+b0 $
+b1111 #
+b0 "
+b1111 !
+$end
+#10
+b0 !
+b0 ,
+b0 =
+b0 .
+b0 3
+b0 :
+b101 -
+b101 8
+b101 ;
+12
+17
+b1 "
+b1 +
+#20
+b1111 .
+b1111 3
+b1111 :
+b11 -
+b11 8
+b11 ;
+b11 !
+b11 ,
+b11 =
+02
+07
+1<
+b10 "
+b10 +
+#30
+b101 !
+b101 ,
+b101 =
+b0 .
+b0 3
+b0 :
+b101 -
+b101 8
+b101 ;
+12
+17
+b11 "
+b11 +
+#40

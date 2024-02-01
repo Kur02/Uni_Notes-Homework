@@ -1,0 +1,297 @@
+$date
+	Thu Jan 04 01:17:36 2024
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module Adder_Substractor_tb $end
+$var wire 4 ! l_result [3:0] $end
+$var wire 1 " l_carry_out $end
+$var reg 4 # l_a [3:0] $end
+$var reg 4 $ l_b [3:0] $end
+$var reg 1 % l_ctrl $end
+$scope module m_dut $end
+$var wire 4 & i_a [3:0] $end
+$var wire 4 ' i_b [3:0] $end
+$var wire 1 % i_ctrl $end
+$var wire 1 ( l_xor_out0 $end
+$var wire 1 ) l_xor_out1 $end
+$var wire 1 * l_xor_out2 $end
+$var wire 1 + l_xor_out3 $end
+$var wire 4 , o_result [3:0] $end
+$var wire 1 " o_carry_out $end
+$var wire 1 - l_c2 $end
+$var wire 1 . l_c1 $end
+$var wire 1 / l_c0 $end
+$scope module fullAdder0 $end
+$var wire 1 0 i_a $end
+$var wire 1 ( i_b $end
+$var wire 1 % i_c_in $end
+$var wire 1 / o_c_out $end
+$var wire 1 1 r1 $end
+$var wire 1 2 o_result $end
+$var wire 1 3 c2 $end
+$var wire 1 4 c1 $end
+$scope module ha1 $end
+$var wire 1 0 a $end
+$var wire 1 ( b $end
+$var wire 1 4 c $end
+$var wire 1 1 s $end
+$upscope $end
+$scope module ha2 $end
+$var wire 1 1 a $end
+$var wire 1 % b $end
+$var wire 1 3 c $end
+$var wire 1 2 s $end
+$upscope $end
+$upscope $end
+$scope module fullAdder1 $end
+$var wire 1 5 i_a $end
+$var wire 1 ) i_b $end
+$var wire 1 / i_c_in $end
+$var wire 1 . o_c_out $end
+$var wire 1 6 r1 $end
+$var wire 1 7 o_result $end
+$var wire 1 8 c2 $end
+$var wire 1 9 c1 $end
+$scope module ha1 $end
+$var wire 1 5 a $end
+$var wire 1 ) b $end
+$var wire 1 9 c $end
+$var wire 1 6 s $end
+$upscope $end
+$scope module ha2 $end
+$var wire 1 6 a $end
+$var wire 1 / b $end
+$var wire 1 8 c $end
+$var wire 1 7 s $end
+$upscope $end
+$upscope $end
+$scope module fullAdder2 $end
+$var wire 1 : i_a $end
+$var wire 1 * i_b $end
+$var wire 1 . i_c_in $end
+$var wire 1 - o_c_out $end
+$var wire 1 ; r1 $end
+$var wire 1 < o_result $end
+$var wire 1 = c2 $end
+$var wire 1 > c1 $end
+$scope module ha1 $end
+$var wire 1 : a $end
+$var wire 1 * b $end
+$var wire 1 > c $end
+$var wire 1 ; s $end
+$upscope $end
+$scope module ha2 $end
+$var wire 1 ; a $end
+$var wire 1 . b $end
+$var wire 1 = c $end
+$var wire 1 < s $end
+$upscope $end
+$upscope $end
+$scope module fullAdder3 $end
+$var wire 1 ? i_a $end
+$var wire 1 + i_b $end
+$var wire 1 - i_c_in $end
+$var wire 1 " o_c_out $end
+$var wire 1 @ r1 $end
+$var wire 1 A o_result $end
+$var wire 1 B c2 $end
+$var wire 1 C c1 $end
+$scope module ha1 $end
+$var wire 1 ? a $end
+$var wire 1 + b $end
+$var wire 1 C c $end
+$var wire 1 @ s $end
+$upscope $end
+$scope module ha2 $end
+$var wire 1 @ a $end
+$var wire 1 - b $end
+$var wire 1 B c $end
+$var wire 1 A s $end
+$upscope $end
+$upscope $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+$end
+#0
+$dumpvars
+1C
+0B
+0A
+0@
+1?
+0>
+0=
+1<
+0;
+0:
+19
+08
+07
+06
+15
+04
+03
+12
+01
+00
+0/
+1.
+0-
+b101 ,
+1+
+0*
+1)
+0(
+b101 '
+b1010 &
+1%
+b101 $
+b1010 #
+1"
+b101 !
+$end
+#10
+0B
+0-
+0.
+17
+0=
+1<
+0"
+1A
+11
+09
+16
+1;
+0C
+1@
+1(
+0)
+1*
+0+
+b1111 !
+b1111 ,
+12
+0%
+#20
+1"
+1B
+0A
+1-
+1=
+0<
+1.
+18
+07
+1/
+0(
+0*
+13
+b0 !
+b0 ,
+02
+10
+1:
+1%
+b1111 $
+b1111 '
+b1111 #
+b1111 &
+#30
+0.
+0-
+0"
+08
+17
+0=
+1<
+0B
+b1110 !
+b1110 ,
+1A
+1*
+1+
+06
+1;
+1@
+05
+0:
+0?
+b11 $
+b11 '
+b1 #
+b1 &
+#40
+07
+0<
+0A
+0/
+0;
+0@
+03
+b1 !
+b1 ,
+12
+0*
+0+
+01
+00
+b1111 $
+b1111 '
+b0 #
+b0 &
+#50
+17
+1<
+1A
+1/
+1.
+1-
+1"
+14
+19
+1>
+1C
+1(
+1)
+1*
+1+
+b1110 !
+b1110 ,
+02
+10
+15
+1:
+1?
+0%
+b1111 #
+b1111 &
+#60
+0<
+0.
+0/
+12
+04
+11
+08
+b1001 !
+b1001 ,
+07
+0(
+0)
+09
+06
+05
+b1100 $
+b1100 '
+b1101 #
+b1101 &
+#70

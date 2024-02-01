@@ -1,0 +1,134 @@
+$date
+	Sun Nov 19 15:21:13 2023
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module shifter_4_tb $end
+$var wire 4 ! l_s [3:0] $end
+$var reg 1 " d_in $end
+$var reg 4 # l_a [3:0] $end
+$scope module m_dut $end
+$var wire 4 $ i_a [3:0] $end
+$var wire 1 " i_d $end
+$var wire 4 % o_s [3:0] $end
+$scope module m0 $end
+$var wire 1 " i_s $end
+$var wire 1 & i_x_0 $end
+$var wire 1 ' i_x_1 $end
+$var wire 1 ( i_y_0 $end
+$upscope $end
+$scope module m1 $end
+$var wire 1 " i_s $end
+$var wire 1 ) i_x_0 $end
+$var wire 1 * i_x_1 $end
+$var wire 1 + i_y_0 $end
+$upscope $end
+$scope module m2 $end
+$var wire 1 " i_s $end
+$var wire 1 , i_x_0 $end
+$var wire 1 - i_x_1 $end
+$var wire 1 . i_y_0 $end
+$upscope $end
+$scope module m3 $end
+$var wire 1 " i_s $end
+$var wire 1 / i_x_0 $end
+$var wire 1 0 i_x_1 $end
+$var wire 1 1 i_y_0 $end
+$upscope $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+01
+00
+0/
+0.
+0-
+0,
+0+
+0*
+0)
+0(
+0'
+0&
+b0 %
+b0 $
+b0 #
+0"
+b0 !
+$end
+#10
+1"
+#20
+1(
+1+
+b111 !
+b111 %
+1.
+1&
+1)
+1*
+1,
+1-
+10
+0"
+b1111 #
+b1111 $
+#30
+0(
+b1110 !
+b1110 %
+11
+1"
+#40
+1(
+0+
+1.
+b101 !
+b101 %
+01
+0)
+00
+0"
+b1011 #
+b1011 $
+#50
+0.
+0(
+1+
+b1010 !
+b1010 %
+11
+0&
+1)
+0-
+10
+1"
+b1101 #
+b1101 $
+#60
+1.
+0+
+b100 !
+b100 %
+01
+0)
+x*
+00
+0"
+b100x #
+b100x $
+#70
+1&
+0*
+x,
+1-
+1"
+bx010 #
+bx010 $
+#80

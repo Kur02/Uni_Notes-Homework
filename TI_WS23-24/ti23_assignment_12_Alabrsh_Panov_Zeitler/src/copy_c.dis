@@ -1,0 +1,27 @@
+
+copy_c.o:     file format elf64-littleaarch64
+
+SYMBOL TABLE:
+0000000000000000 l    df *ABS*	0000000000000000 copy_c.c
+0000000000000000 l    d  .text	0000000000000000 .text
+0000000000000000 l    d  .data	0000000000000000 .data
+0000000000000000 l    d  .bss	0000000000000000 .bss
+0000000000000000 l    d  .note.GNU-stack	0000000000000000 .note.GNU-stack
+0000000000000000 l    d  .eh_frame	0000000000000000 .eh_frame
+0000000000000000 l    d  .comment	0000000000000000 .comment
+0000000000000000 g     F .text	0000000000000024 copy_c
+
+
+
+Disassembly of section .text:
+
+0000000000000000 <copy_c>:
+   0:	a9401807 	ldp	x7, x6, [x0]
+   4:	a9411005 	ldp	x5, x4, [x0, #16]
+   8:	a9420803 	ldp	x3, x2, [x0, #32]
+   c:	f9401800 	ldr	x0, [x0, #48]
+  10:	a9001827 	stp	x7, x6, [x1]
+  14:	a9011025 	stp	x5, x4, [x1, #16]
+  18:	a9020823 	stp	x3, x2, [x1, #32]
+  1c:	f9001820 	str	x0, [x1, #48]
+  20:	d65f03c0 	ret

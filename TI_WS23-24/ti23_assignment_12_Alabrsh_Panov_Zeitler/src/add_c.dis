@@ -1,0 +1,28 @@
+
+add_c.o:     file format elf64-littleaarch64
+
+SYMBOL TABLE:
+0000000000000000 l    df *ABS*	0000000000000000 add_c.c
+0000000000000000 l    d  .text	0000000000000000 .text
+0000000000000000 l    d  .data	0000000000000000 .data
+0000000000000000 l    d  .bss	0000000000000000 .bss
+0000000000000000 l    d  .note.GNU-stack	0000000000000000 .note.GNU-stack
+0000000000000000 l    d  .eh_frame	0000000000000000 .eh_frame
+0000000000000000 l    d  .comment	0000000000000000 .comment
+0000000000000000 g     F .text	0000000000000028 add_c
+
+
+
+Disassembly of section .text:
+
+0000000000000000 <add_c>:
+   0:	b4000120 	cbz	x0, 24 <add_c+0x24>
+   4:	d2800004 	mov	x4, #0x0                   	// #0
+   8:	f8647825 	ldr	x5, [x1, x4, lsl #3]
+   c:	f8647846 	ldr	x6, [x2, x4, lsl #3]
+  10:	8b0600a5 	add	x5, x5, x6
+  14:	f8247865 	str	x5, [x3, x4, lsl #3]
+  18:	91000484 	add	x4, x4, #0x1
+  1c:	eb04001f 	cmp	x0, x4
+  20:	54ffff41 	b.ne	8 <add_c+0x8>  // b.any
+  24:	d65f03c0 	ret
